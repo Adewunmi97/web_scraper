@@ -1,15 +1,13 @@
 require 'httparty'
 require 'nokogiri'
-require 'byebug'
 
 class Laptops
   attr_reader :names, :prices, :ratings, :count
 
   def initialize
-    @url = "https://www.jumia.com.ng/computing/hp/?q=hp+laptops"
+    @url = 'https://www.jumia.com.ng/computing/hp/?q=hp+laptops'
     @unparsed_page = HTTParty.get(@url)
     @parsed_page = Nokogiri::HTML(@unparsed_page)
-    @byebug
     @count = 0
   end
 
@@ -19,5 +17,4 @@ class Laptops
     @ratings = @parsed_page.css('div.rev').map(&:text)
     @count = names.length
   end
-
 end
