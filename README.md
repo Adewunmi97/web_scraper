@@ -20,7 +20,7 @@ This project is to create a web scraper to get informations from websites. Jumia
 <h1>Getting Started</h1>
 
 #To get a local copy up and running follow these simple example steps.
-git clone https://github.com/Lidya1234/Enumerable_method.git
+git clone https://github.com/Adewunmi97/web_scraper.git
 
 #Prerequisites
 Text editor
