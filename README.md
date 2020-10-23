@@ -2,7 +2,11 @@
 
 > This program's purpose is to scan a webpage and take relevant data from it that could benefit the user. This is to help anybody who wants to know about various hp laptops available for sales with their prices and conditions on ebay.com.
 
-![screenshot](./Screenshot.png)
+## Screenshot
+
+<img src="screenshot.png" alt="Demo running screen shot">
+<img src="screenshot 2.png" alt="Demo running screen shot">
+
 
 In this project, information about available hp laptops for sales on ebay.com is provided.
 
@@ -33,9 +37,17 @@ Step 3: Install necessary dependencies
 
 'bundle install'
 
-Step 4: Run the app
+Step 4: Move to the bin directory
 
-'bin/main.rb'
+'cd bin'
+
+Step 5: Run the app
+
+'ruby main.rb'
+
+Step 6: Run the test
+
+'rspec'
 
 ### Testing
 
