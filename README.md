@@ -1,8 +1,8 @@
 # web-scraper
 
-> This program's purpose is to scan a webpage and take relevant data from it that could benefit the user. This is to help anybody who wants to know about various hp laptops available for sales with their prices on ebay.com.
+> This program's purpose is to scan a webpage and take relevant data from it that could benefit the user. This is to help anybody who wants to know about various hp laptops available for sales with their prices and conditions on ebay.com.
 
-![screenshot](./assets/images/Screenshot.png)
+![screenshot](./Screenshot.png)
 
 In this project, information about available hp laptops for sales on ebay.com is provided.
 
@@ -23,7 +23,7 @@ To get this project up and running locally, you must already have little experie
 ### Setup
 Step 1: Clone the repository
 
-'git clone https://github.com/jrai0792/web-scraper.git'
+'git clone https://github.com/Adewunmi97/web_scraper.git'
 
 Step 2: Move into the project directory
 
