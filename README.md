@@ -4,8 +4,8 @@
 
 ## Screenshot
 
-<img src="screenshot.png" alt="Demo running screen shot">
-<img src="screenshot 2.png" alt="Demo running screen shot">
+![Screenshot] (https://github.com/Adewunmi97/web_scraper/issues/2#issue-727752317)
+
 
 
 In this project, information about available hp laptops for sales on ebay.com is provided.
