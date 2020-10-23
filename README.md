@@ -4,7 +4,8 @@
 
 ## Screenshot
 
-![Screenshot] (https://github.com/Adewunmi97/web_scraper/issues/2#issue-727752317)
+![Screenshot](../image/Screenshot.png)
+![Screenshot](../image/Screenshot 2.png)
 
 
 
