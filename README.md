@@ -5,7 +5,7 @@
 ## Screenshot
 
 ![Screenshot](image/Screenshot.png)
-![Screenshot](image/Screenshot 2.png)
+![Screenshot](image/Screenshot2.png)
 
 
 
