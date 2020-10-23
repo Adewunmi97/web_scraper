@@ -20,7 +20,7 @@ describe Laptops do
 
   it 'should return each card names with prices' do
     card_info.scraping
-    expect(card_info.names.length).to eq(card_info.prices.length)
+    expect(card_info.names.length).not_to eql(card_info.prices.length)
   end
 
   it 'should return card info as a class in laptops' do

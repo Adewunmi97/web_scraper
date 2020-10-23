@@ -7,8 +7,6 @@
 ![Screenshot](image/Screenshot.png)
 ![Screenshot](image/Screenshot2.png)
 
-
-
 In this project, information about available hp laptops for sales on ebay.com is provided.
 
 ## Built With
