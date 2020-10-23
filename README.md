@@ -1,49 +1,68 @@
-# web_scraper
+# web-scraper
 
-This project is to create a web scraper to get informations from websites. Jumia website is used here and precisely for hp laptops.
- Method In this project is
-- scraping
-- rspec tests
+> This program's purpose is to scan a webpage and take relevant data from it that could benefit the user. This is to help anybody who wants to know about various hp laptops available for sales with their prices on ebay.com.
 
+![screenshot](./assets/images/Screenshot.png)
 
+In this project, information about available hp laptops for sales on ebay.com is provided.
 
-<img src="screenshot1.png" alt="Demo running screen shot1">
-<img src="screenshot2.png" alt="Demo running screen shot2">
 ## Built With
 
 - Ruby
-- GIT
-- VSCODE
-- RSPEC
+- Nokogiri
+- httparty
+- Rubocop
 
+## App work flow
+- The app shows the total number of all available hp laptops on ebay.com.
+- The app shows all data of hp laptops in a table.
+- The app can be tested using rspec.
 
-<h1>Getting Started</h1>
+### Prerequisites
+To get this project up and running locally, you must already have little experience working with Ruby and have it installed
+### Setup
+Step 1: Clone the repository
 
-#To get a local copy up and running follow these simple example steps.
-git clone https://github.com/Adewunmi97/web_scraper.git
+'git clone https://github.com/jrai0792/web-scraper.git'
 
-#Prerequisites
-Text editor
-Github profile
-Git and Ruby
-Rspec.
+Step 2: Move into the project directory
 
+'cd web_scraper'
 
-<h2>Author</h2>
+Step 3: Install necessary dependencies
 
-👤 Author
+'bundle install'
 
-- Github: [@Adewunmi97-github ](https://github.com/Adewunmi97)
-- Twitter: [@ShonibareC-twitter](https://twitter.com/ShonibareC)
+Step 4: Run the app
+
+'bin/main.rb'
+
+### Testing
+
+Simply run rspec from the root directory
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@Adewunmi97](https://github.com/githubhandle)
+- Twitter: [@ShonibareC](https://twitter.com/twitterhandle)
+
 
 ## 🤝 Contributing
 
- Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](issues/).
 
-Show your support Give a ⭐️ if you like this project!
+## Show your support
 
-Acknowledgments Hat tip to anyone whose code was used Inspiration etc
+Give a ⭐️ if you like this project!
 
-📝 License This project is a collaboration project of microverse students. All rights are reserved for Shonibare Adewunmi.
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
