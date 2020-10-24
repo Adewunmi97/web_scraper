@@ -18,11 +18,6 @@ describe Laptops do
     expect(card_info.prices.length).to be > 0
   end
 
-  it 'should return each card names with prices' do
-    card_info.scraping
-    expect(card_info.names.length).not_to eql(card_info.prices.length)
-  end
-
   it 'should return card info as a class in laptops' do
     expect(card_info).to be_an_instance_of(Laptops)
   end
